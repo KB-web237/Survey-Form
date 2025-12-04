@@ -1,5 +1,5 @@
 # Survey Form
-This is a survay form web page created using **HTML** and **CSS** given by our teacher at **Rebase Code Camp**. The page shows how a survey for can be design with reference from **freeCodeCamp**.
+This is a survay form web page created using **HTML** and **CSS** given by our teacher at **Rebase Code Camp**. The page shows how a survey form is design with reference from **freeCodeCamp**.
 
 ---
 
