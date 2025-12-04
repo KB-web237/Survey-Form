@@ -21,10 +21,7 @@ body {
 }
 
 .xmyc input {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 0px;
-  padding-left: 5px;
+  padding: 5px 0 5px 3px;
   margin-bottom: 15px;
   width: 99%;
   color: rgb(0 0 0);
