@@ -1,6 +1,6 @@
 * {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   margin: 0;
 }
@@ -14,9 +14,9 @@ body {
 
 .gform {
   margin: auto;
-  max-width: 30rem;
-  background-color: rgba(4 4 36 / 60%);
-  padding: 18px;
+  max-width: 32rem;
+  background-color: rgba(4 4 36 / 70%);
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -53,7 +53,7 @@ header {
 button {
   width: 99%;
   background-color: green;
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 7px;
   border: none;
 }

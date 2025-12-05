@@ -5,6 +5,8 @@ This is a survay form web page created using **HTML** and **CSS** given by our t
 
 ## Preview and How to use
 (open `index.html` or the deployed link to view the survey form)
+## Example Output of the survey
+![Terminal Output](assets/images/example.png)
 
 ---
 
