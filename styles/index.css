@@ -6,7 +6,8 @@
 }
 
 body {
-  background: radial-gradient(rgb(73 82 165 / 75%), rgba(44 50 105 / 75%)), url("../assets/images/surveyimg.jpeg") no-repeat;
+  background: radial-gradient(rgb(73 82 165 / 75%), rgba(44 50 105 / 75%)),
+    url("../assets/images/surveyimg.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -27,6 +28,7 @@ body {
   width: 99%;
   color: rgb(0 0 0);
   border-radius: 6px;
+  font-size: 15px;
 }
 
 select,
@@ -37,6 +39,18 @@ option {
   margin-left: 4px;
   color: rgb(88 86 86);
   border-radius: 5px;
+  font-size: 15px;
+}
+
+input:focus {
+  border: 2px solid blue;
+  box-shadow: 0 0 5px blue;
+  outline: none;
+}
+
+select:focus {
+  border: 2px solid blue;
+  outline: none;
 }
 
 textarea {
@@ -45,6 +59,22 @@ textarea {
   color: rgb(0 0 0);
   border-radius: 3px;
   height: 100px;
+  font-size: 15px;
+}
+
+textarea:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+}
+
+input[type="radio"] {
+  height: 17px;
+  width: 17px;
 }
 
 header {
@@ -59,4 +89,5 @@ button {
   padding: 13px;
   border: none;
   margin: auto;
+  font-size: 16px;
 }
