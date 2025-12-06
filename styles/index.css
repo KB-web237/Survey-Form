@@ -6,7 +6,7 @@
 }
 
 body {
-  background: radial-gradient(rgb(73 82 165 / 75%), rgba(44 50 105 / 75%)) ,url("../assets/images/surveyimg.jpeg") no-repeat;
+  background: radial-gradient(rgb(73 82 165 / 75%), rgba(44 50 105 / 75%)), url("../assets/images/surveyimg.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
