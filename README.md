@@ -3,8 +3,18 @@ This is a survay form web page created using **HTML** and **CSS** given by our t
 
 ---
 
+## Project Architecture
+```text
+.Surveyform
+|_assets/images/surveybg.jpeg, example.png
+|__style/index.css
+|__index.html
+
+```
 ## Preview and How to use
 (open `index.html` or the deployed link to view the survey form)
+- Deployement link: [https://kb-web237.github.io/Survey-Form/]
+
 ## Example Output of the survey
 ![Terminal Output](assets/images/example.png)
 
