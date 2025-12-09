@@ -4,9 +4,62 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Survey Form</title>
-        <link rel="stylesheet" href="/styles/index.css">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
     <body>
+       <header>
+        <h2>freeCodeCamp Survey Form</h2>
+        <i>Thank you for taking the time to help us improve the platform</i>
+       </header>
+       <main>
+        <div class="designform">
+         <form action="">
+         <div class="designinput">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+            <br><label for="email">Email</label><br>
+            <input type="email" id="emailx" name="email" placeholder="Enter your Email" required>
+            <br><label for="age">Age(optional)</label><br>
+            <input type="number" name="age" id="age" placeholder="Age" required> 
+            <br><label for="role">Which Option best describes your current role?</label><br>
+            <select name="crole" id="role">
+                <option value="">Select current role</option>
+                <option value="one">Member</option>
+                <option value="two">Learner</option>
+                <option value="three">Teacher</option>
+                <option value="four">Admit</option>
+            </select><br></div>
+            <label for="recomment">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="mx" id="rx"  placeholder="Definitely" checked> Definitely <br>
+            <input type="radio" name="mx"  id="dx" placeholder="maybe"> Maybe <br>
+            <input type="radio" name="mx"  id="fx" placeholder="not sure"> Not sure <br>
+            <br>
+            <label for="favfea">What is your favorite feature of freeCodeCamp?</label><br>
+            <select name="seloption" id="favfea">
+                <option value="" >Select an option</option>
+                <option value="free access">Completely Free Access</option>
+                <option value="Learning project">Project-Based Learning</option>
+                <option value="Supportive">Supportive Community</option>
+                <option value="Integrated code editor">Integrated Code Editor</option>
+            </select><br>
+            <label for="imprx">What would you like to see improved? (check all that apply)</label><br>
+            <input type="checkbox" name="frontend" title="front-end projects"> Front-end Projects <br>
+            <input type="checkbox" name="backend" title="backend projec" checked> Back-end projects<br>
+            <input type="checkbox" name="visualization" title="data visualization"> Data Visualization<br>
+            <input type="checkbox" name="change" title="challenges"> Challenges<br>
+            <input type="checkbox" name="opensource" title="the open source comm"> Open Source Community<br>
+            <input type="checkbox" name="help" title="gitter helps"> Gitter help rooms<br>
+            <input type="checkbox" name="videos" title="our vids"> Videos<br>
+            <input type="checkbox" name="meetings" title="Meetups"> City Meetups<br>
+            <input type="checkbox" name="news" title="wiki"> Wiki <br>
+            <input type="checkbox" name="community" title="com forum"> Forum <br>
+            <input type="checkbox" name="courses" title="onlinecourses"> Additional Courses<br>
+            <br><label for="commentx">Any comments or suggestions?</label><br>
+            <textarea name="msg" id="commentx" placeholder="Enter your comment here"></textarea>
+        <br> <button type="submit" title="submit message">Submit</button>
+        </form>
+        </div>
+       </main>
 
     </body>
 </html>
